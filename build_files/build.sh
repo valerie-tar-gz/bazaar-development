@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y gtk4-devel libadwaita-devel libdex-devel flatpak-devel appstream-devel libxmlb-devel glycin-devel libyaml-devel libsoup3-devel json-glib-devel 
+dnf5 install -y gtk4-devel libadwaita-devel libdex-devel flatpak-devel appstream-devel libxmlb-devel glycin-devel libyaml-devel libsoup3-devel json-glib-devel emacs
 
 # Use a COPR Example:
 #
